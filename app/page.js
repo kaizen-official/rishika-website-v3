@@ -70,8 +70,11 @@ export default function Home() {
 
       <Services />
       <WhyUS />
+      {/* <Suspense fallback={<div className="h-48" />}>
+        <Clients />
+      </Suspense> */}
       <Suspense fallback={<div className="h-48" />}>
-        {/* <Clients /> */}
+        <ConstructionExcellence />
       </Suspense>
       <Suspense fallback={<div className="h-48" />}>
         <MissionVision />
@@ -81,9 +84,6 @@ export default function Home() {
       </Suspense>
       <Suspense fallback={<div className="h-48" />}>
         <Offering />
-      </Suspense>
-      <Suspense fallback={<div className="h-48" />}>
-        <ConstructionExcellence />
       </Suspense>
       <Suspense fallback={<div className="h-48" />}>
         <Testimonials />
