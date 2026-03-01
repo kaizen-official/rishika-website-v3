@@ -1,0 +1,218 @@
+[
+  {
+    "slug": "rishika-heights",
+    "model": "Rishika Heights",
+    "category": "luxury-apartments",
+    "type": "Luxury Apartments",
+    "tagline": "Elevated Living, Timeless Elegance",
+    "description": "Rishika Heights offers premium 2, 3 & 4 BHK luxury apartments designed with Vastu-compliant floor plans, Italian marble flooring, modular kitchens, and smart home integration. Located in a prime neighborhood with world-class amenities.",
+    "longDescription": "Experience the pinnacle of urban living at Rishika Heights. Every apartment is thoughtfully designed to maximize natural light, cross ventilation, and Vastu harmony. Premium specifications include Italian marble flooring, modular kitchens with branded appliances, designer bathrooms, and smart home automation. Residents enjoy access to a grand clubhouse, infinity swimming pool, landscaped gardens, fitness center, and children's play area. With 24/7 security, CCTV surveillance, and dedicated parking, Rishika Heights delivers luxury at every detail.",
+    "images": [
+      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800&q=80",
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&q=80",
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&q=80"
+    ],
+    "specifications": {
+      "poweredBy": "RERA Registered Project",
+      "capacity": "2 BHK, 3 BHK & 4 BHK Options",
+      "speed": "Possession in 24-36 Months",
+      "floors": "Ground + 14 Floors",
+      "cabinDesign": [
+        "Italian Marble Flooring",
+        "Modular Kitchen with Chimney",
+        "Designer Bathroom Fixtures",
+        "Smart Home Automation"
+      ],
+      "doorType": "Main Door: Teak Wood | Internal: Flush Doors"
+    },
+    "advantages": [
+      "Vastu-compliant floor plans designed by expert architects.",
+      "Italian marble flooring and premium vitrified tiles throughout.",
+      "Modular kitchen with granite countertop and branded fittings.",
+      "Smart home automation with app-controlled lighting and security.",
+      "Grand clubhouse with swimming pool, gym, and multipurpose hall.",
+      "Landscaped gardens, jogging track, and children's play area.",
+      "24/7 security with CCTV, video door phone, and intercom."
+    ]
+  },
+  {
+    "slug": "rishika-enclave",
+    "model": "Rishika Enclave",
+    "category": "premium-villas",
+    "type": "Premium Villas",
+    "tagline": "Your Private Paradise",
+    "description": "Rishika Enclave presents exclusive 3 & 4 BHK luxury villas with private gardens, dedicated parking, and premium designer interiors. Each villa is crafted with Vastu principles and surrounded by lush green landscapes.",
+    "longDescription": "Nestled in a serene neighborhood, Rishika Enclave offers the perfect blend of privacy and community living. Each villa features spacious living areas, private gardens, designer interiors with premium finishes, and rooftop terraces. The gated community includes a community clubhouse, swimming pool, walking trails, and dedicated security. Every villa is built with earthquake-resistant RCC structure, premium fittings from Jaquar and Kohler, and is fully Vastu-compliant.",
+    "images": [
+      "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800&q=80",
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=80",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80"
+    ],
+    "specifications": {
+      "poweredBy": "RERA Registered Project",
+      "capacity": "3 BHK & 4 BHK Villas",
+      "speed": "Possession in 18-30 Months",
+      "floors": "Ground + 2 Floors (Duplex/Triplex)",
+      "cabinDesign": [
+        "Premium Wooden Flooring",
+        "Designer Modular Kitchen",
+        "Jaquar & Kohler Bathroom Fittings",
+        "Private Garden & Terrace"
+      ],
+      "doorType": "Main Door: Solid Teak | Internal: Designer Panel Doors"
+    },
+    "advantages": [
+      "Exclusive gated community with limited villas for privacy.",
+      "Vastu-compliant design with optimal room orientations.",
+      "Private garden, terrace, and dedicated 2-car parking.",
+      "Premium interiors with wooden flooring and designer fittings.",
+      "Earthquake-resistant RCC frame structure.",
+      "Community clubhouse, swimming pool, and walking trails.",
+      "Rainwater harvesting and solar panel provisions."
+    ]
+  },
+  {
+    "slug": "rishika-greens",
+    "model": "Rishika Greens",
+    "category": "residential-plots",
+    "type": "Residential Plots",
+    "tagline": "Build Your Dream, Your Way",
+    "description": "Rishika Greens offers RERA-approved residential plots in a prime location with complete infrastructure \u2014 wide roads, underground utilities, landscaped avenues, and proximity to schools, hospitals, and shopping centers.",
+    "longDescription": "Rishika Greens is a premium plotted development designed for families who want the freedom to build their dream home. Located in a rapidly developing area with excellent connectivity, every plot comes with clear titles, RERA approval, and ready infrastructure including wide concrete roads, underground drainage, water supply, and electricity connections. The development features landscaped entry gates, parks, and community spaces.",
+    "images": [
+      "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=800&q=80",
+      "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800&q=80",
+      "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=800&q=80"
+    ],
+    "specifications": {
+      "poweredBy": "RERA Registered & DTCP Approved",
+      "capacity": "Plot Sizes: 1200 - 2400 sq.ft.",
+      "speed": "Immediate Registration Available",
+      "floors": "Build up to Ground + 3 Floors",
+      "cabinDesign": [
+        "40 ft Wide Main Road",
+        "Underground Drainage & Water",
+        "Landscaped Parks & Gardens",
+        "Street Lighting & Security Gate"
+      ],
+      "doorType": "Individual Plot with Compound Wall Option"
+    },
+    "advantages": [
+      "RERA registered with clear legal titles and documentation.",
+      "Wide 40 ft & 30 ft internal concrete roads.",
+      "Underground drainage, water supply, and electricity.",
+      "Landscaped parks, gardens, and community open spaces.",
+      "Proximity to schools, hospitals, and shopping centers.",
+      "Gated community with security and CCTV surveillance.",
+      "Flexible plot sizes to suit various budget requirements."
+    ]
+  },
+  {
+    "slug": "rishika-business-park",
+    "model": "Rishika Business Park",
+    "category": "commercial-spaces",
+    "type": "Commercial Spaces",
+    "tagline": "Where Business Meets Excellence",
+    "description": "Rishika Business Park offers modern commercial spaces including office suites, retail showrooms, and co-working areas in a strategic business district with premium infrastructure and smart building features.",
+    "longDescription": "Strategically located in the city's business corridor, Rishika Business Park is designed for the modern enterprise. Featuring Grade-A office spaces, retail frontage, food court, and ample basement parking, the project combines functionality with aesthetics. Smart building management systems, high-speed elevators, central air conditioning, and 100% power backup ensure uninterrupted business operations.",
+    "images": [
+      "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80",
+      "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80",
+      "https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=800&q=80"
+    ],
+    "specifications": {
+      "poweredBy": "RERA Registered Commercial Project",
+      "capacity": "Office: 500-5000 sq.ft. | Retail: 300-3000 sq.ft.",
+      "speed": "Possession in 24-36 Months",
+      "floors": "Ground + 12 Floors + Basement Parking",
+      "cabinDesign": [
+        "Central Air Conditioning",
+        "High-Speed Elevators",
+        "Smart Building Management",
+        "100% Power Backup"
+      ],
+      "doorType": "Frameless Glass Facades with Aluminum Framing"
+    },
+    "advantages": [
+      "Prime location in the city's commercial business district.",
+      "Grade-A office spaces with modern infrastructure.",
+      "High-speed elevators and central air conditioning.",
+      "Ample basement parking for tenants and visitors.",
+      "Smart building management and 100% power backup.",
+      "Retail and food court on ground and first floors.",
+      "Close to metro, highways, and IT corridors."
+    ]
+  },
+  {
+    "slug": "rishika-residency",
+    "model": "Rishika Residency",
+    "category": "independent-floors",
+    "type": "Independent Floors",
+    "tagline": "Privacy Meets Premium Living",
+    "description": "Rishika Residency offers exclusive 3 BHK independent builder floors in a premium neighborhood. Each floor features its own entry, terrace access, and Vastu-compliant design with contemporary interiors.",
+    "longDescription": "Rishika Residency brings the best of both worlds \u2014 the privacy of an independent home and the convenience of managed community living. Each floor is an independent unit with its own entrance, terrace rights, spacious rooms, and premium fittings. The double-height lobby, landscaped compound, and covered parking add to the charm. Built with earthquake-resistant structure and premium specifications, every floor is a statement of refined living.",
+    "images": [
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80",
+      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&q=80"
+    ],
+    "specifications": {
+      "poweredBy": "RERA Registered Project",
+      "capacity": "3 BHK Independent Floors (1800-2200 sq.ft.)",
+      "speed": "Possession in 12-18 Months",
+      "floors": "Ground + 3 Floors (Stilt + 3)",
+      "cabinDesign": [
+        "Vitrified Tile Flooring",
+        "Modular Kitchen with Hob & Chimney",
+        "Branded CP & Sanitary Fittings",
+        "Terrace & Balcony Access"
+      ],
+      "doorType": "Main Door: Teak Wood Frame | Internal: Laminated Flush Doors"
+    },
+    "advantages": [
+      "Independent entry and terrace rights for each floor.",
+      "Vastu-compliant design with spacious room layouts.",
+      "Premium neighborhood with excellent connectivity.",
+      "Covered parking and landscaped common areas.",
+      "Earthquake-resistant RCC frame construction.",
+      "Premium fittings from branded manufacturers.",
+      "Low-density development ensuring privacy and space."
+    ]
+  },
+  {
+    "slug": "rishika-paradise",
+    "model": "Rishika Paradise",
+    "category": "township-projects",
+    "type": "Township",
+    "tagline": "A World Within Your World",
+    "description": "Rishika Paradise is an integrated township featuring luxury apartments, villas, plots, commercial spaces, schools, healthcare, and recreational facilities \u2014 a self-sustained community for modern families.",
+    "longDescription": "Rishika Paradise is our flagship township project spread across acres of thoughtfully planned development. The township features a mix of luxury apartments, premium villas, residential plots, and commercial spaces, all connected by wide landscaped avenues. Residents enjoy access to an international school, healthcare center, supermarket, clubhouse, sports facilities, parks, and a dedicated shuttle service. Designed for sustainability with solar lighting, rainwater harvesting, and EV charging infrastructure.",
+    "images": [
+      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&q=80",
+      "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800&q=80",
+      "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=800&q=80"
+    ],
+    "specifications": {
+      "poweredBy": "RERA Registered Township",
+      "capacity": "Apartments, Villas, Plots & Commercial",
+      "speed": "Phase-wise Delivery: 24-48 Months",
+      "floors": "Mixed Development: G+2 to G+18",
+      "cabinDesign": [
+        "International School & Healthcare",
+        "Grand Clubhouse & Sports Complex",
+        "Landscaped Parks & Water Bodies",
+        "EV Charging & Solar Infrastructure"
+      ],
+      "doorType": "Multiple Housing & Commercial Options"
+    },
+    "advantages": [
+      "Integrated township with all lifestyle amenities.",
+      "Mix of apartments, villas, plots, and commercial spaces.",
+      "International school and healthcare center within campus.",
+      "Grand clubhouse with indoor and outdoor sports facilities.",
+      "Sustainable design with solar panels and rainwater harvesting.",
+      "Wide landscaped avenues with dedicated cycling and jogging tracks.",
+      "24/7 security, CCTV, and smart township management system."
+    ]
+  }
+]

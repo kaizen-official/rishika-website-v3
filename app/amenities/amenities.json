@@ -1,0 +1,167 @@
+[
+  {
+    "slug": "clubhouse-recreation",
+    "model": "Grand Clubhouse",
+    "category": "clubhouse-recreation",
+    "type": "Amenity",
+    "tagline": "Where Community Comes Together",
+    "description": "A grand clubhouse designed for celebrations, gatherings, and everyday leisure",
+    "longDescription": "The Rishika Builders clubhouse is the heart of community living. Spanning over 10,000 sq.ft., it features a multipurpose banquet hall for celebrations, an indoor games room with billiards and table tennis, a premium lounge with library, and a dedicated kids' activity zone. The interiors are designed with contemporary aesthetics and premium materials for a resort-like experience.",
+    "images": [
+      "https://images.unsplash.com/photo-1540541338287-41700207dee6?w=800&q=80",
+      "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=800&q=80",
+      "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?w=800&q=80"
+    ],
+    "specifications": {
+      "Area": "10,000+ sq.ft.",
+      "Banquet Capacity": "200+ guests",
+      "Features": "Indoor games, lounge, library, kids zone",
+      "Design": "Contemporary premium interiors"
+    },
+    "advantages": [
+      "Multipurpose banquet hall for events and celebrations",
+      "Indoor games room with billiards, TT, and carrom",
+      "Premium lounge with library and reading area",
+      "Dedicated kids' activity and learning zone",
+      "Mini theatre for movie screenings",
+      "Co-working space with high-speed WiFi"
+    ]
+  },
+  {
+    "slug": "swimming-pool-spa",
+    "model": "Infinity Pool & Spa",
+    "category": "swimming-pool-spa",
+    "type": "Amenity",
+    "tagline": "Dive Into Luxury",
+    "description": "Temperature-controlled infinity pool with spa and wellness facilities",
+    "longDescription": "Enjoy resort-style living with our infinity edge swimming pool, separate kids' pool, poolside deck, and spa facilities. The pool area is designed for both fitness swimmers and leisure relaxation, with sun loungers, umbrella seating, and a poolside refreshment kiosk. The attached spa offers jacuzzi, steam, and sauna for complete rejuvenation.",
+    "images": [
+      "https://images.unsplash.com/photo-1572331165267-854da2b10ccc?w=800&q=80",
+      "https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?w=800&q=80"
+    ],
+    "specifications": {
+      "Pool Type": "Infinity edge, temperature-controlled",
+      "Kids Pool": "Separate shallow pool with water features",
+      "Spa": "Jacuzzi, steam room, sauna",
+      "Deck": "Premium stone-clad poolside deck"
+    },
+    "advantages": [
+      "Temperature-controlled infinity edge swimming pool",
+      "Separate kids' pool with water play features",
+      "Poolside deck with sun loungers and umbrellas",
+      "Jacuzzi and spa for wellness and relaxation",
+      "Steam room and sauna within spa complex",
+      "Professional pool maintenance and lifeguard"
+    ]
+  },
+  {
+    "slug": "fitness-sports",
+    "model": "Sports & Fitness Complex",
+    "category": "fitness-sports",
+    "type": "Amenity",
+    "tagline": "Your Active Lifestyle Awaits",
+    "description": "State-of-the-art fitness center and multi-sport facilities",
+    "longDescription": "Stay active and healthy with our comprehensive fitness and sports complex. The gymnasium is equipped with the latest cardio and strength training equipment from international brands. Outdoor facilities include tennis, badminton, and basketball courts, plus a multi-sport arena. The yoga and meditation studio offers a serene space for mindfulness and wellness.",
+    "images": [
+      "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&q=80",
+      "https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=800&q=80",
+      "https://images.unsplash.com/photo-1554068865-24cecd4e34b8?w=800&q=80"
+    ],
+    "specifications": {
+      "Gym": "Fully-equipped with international brands",
+      "Courts": "Tennis, badminton, basketball",
+      "Studio": "Yoga, meditation, aerobics",
+      "Track": "400m jogging track"
+    },
+    "advantages": [
+      "Fully-equipped gymnasium with branded equipment",
+      "Outdoor tennis, badminton, and basketball courts",
+      "Yoga and meditation studio with natural light",
+      "400m jogging and cycling track",
+      "Multi-sport arena for cricket and football",
+      "Personal trainer and fitness programs available"
+    ]
+  },
+  {
+    "slug": "gardens-landscaping",
+    "model": "Landscaped Green Spaces",
+    "category": "gardens-landscaping",
+    "type": "Amenity",
+    "tagline": "Nature at Your Doorstep",
+    "description": "Beautifully landscaped gardens, parks, and green open spaces",
+    "longDescription": "Immerse yourself in nature with over 70% open and green spaces. Our projects feature themed gardens, a central landscape park, walking and cycling trails, a meditation garden with water features, and dedicated children's play areas with safe, modern equipment. Every green space is professionally maintained to provide a serene and beautiful living environment.",
+    "images": [
+      "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800&q=80",
+      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80"
+    ],
+    "specifications": {
+      "Green Cover": "70%+ open spaces",
+      "Parks": "Central park, themed gardens",
+      "Play Area": "Modern children's playground",
+      "Trails": "Walking, jogging, cycling"
+    },
+    "advantages": [
+      "70%+ open and green spaces within the development",
+      "Central landscape park with water features",
+      "Themed gardens including herb and butterfly garden",
+      "Safe children's play area with modern equipment",
+      "Walking, jogging, and cycling trails throughout",
+      "Professionally maintained green landscapes"
+    ]
+  },
+  {
+    "slug": "smart-security",
+    "model": "Integrated Security System",
+    "category": "smart-security",
+    "type": "Amenity",
+    "tagline": "Safety You Can Trust",
+    "description": "Multi-tier smart security system for complete peace of mind",
+    "longDescription": "Your family's safety is our priority. Our multi-tier security system includes 24/7 CCTV surveillance with cloud backup, smart access card entry, video door phone for every unit, boom barriers at entry/exit, and round-the-clock manned security at all gates. The integrated security dashboard allows management to monitor the entire premises in real-time.",
+    "images": [
+      "https://images.unsplash.com/photo-1558002038-1055907df827?w=800&q=80",
+      "https://images.unsplash.com/photo-1557597774-9d273605dfa9?w=800&q=80",
+      "https://images.unsplash.com/photo-1580983218765-fac4dde48130?w=800&q=80"
+    ],
+    "specifications": {
+      "CCTV": "HD cameras with cloud backup",
+      "Access": "Smart card & biometric entry",
+      "Intercom": "Video door phone for each unit",
+      "Patrol": "24/7 manned security"
+    },
+    "advantages": [
+      "24/7 HD CCTV surveillance with cloud storage",
+      "Smart card access control at all entry points",
+      "Video door phone with intercom for every unit",
+      "Boom barriers and security gates at all entries",
+      "Round-the-clock security patrol and guard service",
+      "Fire alarm and emergency response systems"
+    ]
+  },
+  {
+    "slug": "sustainable-living",
+    "model": "Green Living Features",
+    "category": "sustainable-living",
+    "type": "Amenity",
+    "tagline": "Built for a Greener Future",
+    "description": "Eco-friendly features for sustainable and responsible living",
+    "longDescription": "Rishika Builders is committed to sustainable development. Our projects incorporate rainwater harvesting systems, rooftop solar panels for common area lighting, EV charging infrastructure, organic waste composting, energy-efficient fixtures, and low-VOC paints. These initiatives not only reduce the environmental footprint but also lower maintenance costs for residents.",
+    "images": [
+      "https://images.unsplash.com/photo-1510627489930-0c1b0bfb6785?w=800&q=80",
+      "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=800&q=80"
+    ],
+    "specifications": {
+      "Water": "Rainwater harvesting & recycling",
+      "Energy": "Solar panels for common areas",
+      "EV": "Charging stations in parking",
+      "Waste": "Organic composting system"
+    },
+    "advantages": [
+      "Rainwater harvesting system for water conservation",
+      "Rooftop solar panels reducing common area costs",
+      "EV charging infrastructure in basement parking",
+      "Organic waste composting for sustainable disposal",
+      "Energy-efficient LED lighting throughout common areas",
+      "Low-VOC paints and eco-friendly construction materials"
+    ]
+  }
+]

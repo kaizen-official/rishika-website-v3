@@ -1,0 +1,104 @@
+[
+  {
+    "id": "luxury-apartments",
+    "title": "Luxury Apartments",
+    "slug": "luxury-apartments",
+    "description": "Premium 2, 3 & 4 BHK apartments with world-class amenities, Vastu-compliant design, and contemporary architecture in prime locations.",
+    "image": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800&q=80",
+    "icon": "IconBuilding",
+    "features": [
+      "Italian marble & modular kitchens",
+      "Smart home automation ready",
+      "Landscaped gardens & clubhouse",
+      "24/7 security with CCTV"
+    ],
+    "projects": [
+      "rishika-heights"
+    ]
+  },
+  {
+    "id": "premium-villas",
+    "title": "Premium Villas",
+    "slug": "premium-villas",
+    "description": "Spacious independent villas with private gardens, premium interiors, and customizable floor plans designed for luxury family living.",
+    "image": "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800&q=80",
+    "icon": "IconHome",
+    "features": [
+      "Private garden & terrace",
+      "Vastu-compliant layout",
+      "Premium designer interiors",
+      "Covered car parking"
+    ],
+    "projects": [
+      "rishika-enclave"
+    ]
+  },
+  {
+    "id": "residential-plots",
+    "title": "Residential Plots",
+    "slug": "residential-plots",
+    "description": "RERA-approved plotted developments in prime locations with modern infrastructure, wide roads, and complete utility support.",
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=800&q=80",
+    "icon": "IconMap",
+    "features": [
+      "RERA approved & clear titles",
+      "Wide internal roads",
+      "Underground utility lines",
+      "Boundary walls & landscaping"
+    ],
+    "projects": [
+      "rishika-greens"
+    ]
+  },
+  {
+    "id": "commercial-spaces",
+    "title": "Commercial Spaces",
+    "slug": "commercial-spaces",
+    "description": "Modern office spaces, retail showrooms, and business parks in strategic locations with premium infrastructure and ample parking.",
+    "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80",
+    "icon": "IconBriefcase",
+    "features": [
+      "High-speed elevators",
+      "Central air conditioning",
+      "Ample parking space",
+      "Smart building management"
+    ],
+    "projects": [
+      "rishika-business-park"
+    ]
+  },
+  {
+    "id": "independent-floors",
+    "title": "Independent Floors",
+    "slug": "independent-floors",
+    "description": "Exclusive builder floors offering privacy of an independent home with the convenience of apartment-style living in premium neighborhoods.",
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80",
+    "icon": "IconLayers",
+    "features": [
+      "Independent entry & terrace",
+      "Spacious floor plans",
+      "Premium neighborhood",
+      "Dedicated parking"
+    ],
+    "projects": [
+      "rishika-residency"
+    ]
+  },
+  {
+    "id": "township-projects",
+    "title": "Township Projects",
+    "slug": "township-projects",
+    "description": "Integrated township developments with a mix of residential, commercial, and recreational spaces \u2014 a self-sustained community experience.",
+    "image": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&q=80",
+    "icon": "IconUsers",
+    "features": [
+      "Mixed-use development",
+      "Schools & healthcare nearby",
+      "Parks & recreation zones",
+      "Sustainable infrastructure"
+    ],
+    "projects": [
+      "rishika-paradise"
+    ]
+  }
+]

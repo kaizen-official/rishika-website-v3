@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "title": "Clubhouse & Recreation",
+    "slug": "clubhouse-recreation",
+    "description": "Grand clubhouse with multipurpose hall, indoor games, party area, and premium lounge spaces for community gatherings",
+    "image": "https://images.unsplash.com/photo-1540541338287-41700207dee6?w=800&q=80",
+    "icon": "IconBox",
+    "features": [
+      "Multipurpose banquet hall",
+      "Indoor games & billiards room",
+      "Premium lounge area",
+      "Library & reading room"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Swimming Pool & Spa",
+    "slug": "swimming-pool-spa",
+    "description": "Temperature-controlled swimming pool with kids' pool, jacuzzi, and poolside deck for relaxation",
+    "image": "https://images.unsplash.com/photo-1572331165267-854da2b10ccc?w=800&q=80",
+    "icon": "IconBox",
+    "features": [
+      "Infinity edge swimming pool",
+      "Separate kids' pool area",
+      "Poolside deck & lounge",
+      "Jacuzzi & spa facilities"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Fitness & Sports",
+    "slug": "fitness-sports",
+    "description": "State-of-the-art gymnasium, yoga studio, tennis court, and multi-sport arena for an active lifestyle",
+    "image": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&q=80",
+    "icon": "IconBox",
+    "features": [
+      "Fully-equipped gymnasium",
+      "Yoga & meditation studio",
+      "Tennis & badminton courts",
+      "Multi-sport arena"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Gardens & Landscaping",
+    "slug": "gardens-landscaping",
+    "description": "Beautifully landscaped gardens with jogging tracks, meditation zones, and themed green spaces",
+    "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800&q=80",
+    "icon": "IconBox",
+    "features": [
+      "Landscaped central garden",
+      "Jogging & cycling tracks",
+      "Meditation & zen garden",
+      "Children's play area"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Smart Security",
+    "slug": "smart-security",
+    "description": "Multi-tier security system with CCTV surveillance, smart access control, and 24/7 manned security",
+    "image": "https://images.unsplash.com/photo-1558002038-1055907df827?w=800&q=80",
+    "icon": "IconDeviceDesktop",
+    "features": [
+      "24/7 CCTV surveillance",
+      "Smart access card system",
+      "Video door phone",
+      "Manned security gates"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Sustainable Living",
+    "slug": "sustainable-living",
+    "description": "Eco-friendly features including rainwater harvesting, solar panels, EV charging, and waste management",
+    "image": "https://images.unsplash.com/photo-1510627489930-0c1b0bfb6785?w=800&q=80",
+    "icon": "IconBox",
+    "features": [
+      "Rainwater harvesting system",
+      "Solar panel integration",
+      "EV charging stations",
+      "Organic waste composting"
+    ]
+  }
+]

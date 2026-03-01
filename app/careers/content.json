@@ -1,0 +1,40 @@
+{
+    "jobs": [
+        {
+            "id": 1,
+            "title": "Senior Architect",
+            "location": "Sonipat, Haryana",
+            "description": "Lead architectural design for residential and commercial projects. Experience with Vastu-compliant designs and modern construction techniques preferred."
+        },
+        {
+            "id": 2,
+            "title": "Civil Engineer",
+            "location": "Sonipat, Haryana",
+            "description": "Oversee construction quality, structural design, and site supervision for ongoing residential projects. B.Tech in Civil Engineering required."
+        },
+        {
+            "id": 3,
+            "title": "Sales Executive - Real Estate",
+            "location": "Sonipat, Haryana",
+            "description": "Drive property sales for luxury apartments, villas, and plots. Strong communication skills and real estate market knowledge required."
+        },
+        {
+            "id": 4,
+            "title": "Project Manager",
+            "location": "Sonipat, Haryana",
+            "description": "Manage residential and commercial construction projects from planning to delivery, coordinating with architects, contractors, and stakeholders."
+        },
+        {
+            "id": 5,
+            "title": "Interior Designer",
+            "location": "Sonipat, Haryana",
+            "description": "Design premium interior spaces for model apartments and show villas. Experience with luxury residential interiors and 3D visualization required."
+        },
+        {
+            "id": 6,
+            "title": "Marketing Manager",
+            "location": "Sonipat, Haryana",
+            "description": "Plan and execute marketing campaigns for new project launches including digital marketing, events, and brand communications."
+        }
+    ]
+}
