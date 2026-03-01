@@ -1,7 +1,12 @@
 "use client";
 
-import { TagCloud } from "@/components/ui/interactive-icon-cloud"
+import dynamic from "next/dynamic"
 import { motion } from "motion/react"
+
+const TagCloud = dynamic(
+  () => import("@/components/ui/interactive-icon-cloud").then((mod) => mod.TagCloud),
+  { ssr: false, loading: () => <div className="w-full aspect-square" /> }
+)
 import {
   IconBuilding,
   IconHome,
