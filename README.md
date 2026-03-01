@@ -3,12 +3,12 @@
 <div align="center">
 
 ![Rishika Builders](https://img.shields.io/badge/Rishika-Builders-E85002?style=for-the-badge&logo=react)
-![Next.js](https://img.shields.io/badge/Next.js-15.0-black?style=for-the-badge&logo=next.js)
-![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react)
+![Next.js](https://img.shields.io/badge/Next.js-15+-black?style=for-the-badge&logo=next.js)
+![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-38B2AC?style=for-the-badge&logo=tailwind-css)
 ![Google Sheets](https://img.shields.io/badge/Google-Sheets-34A853?style=for-the-badge&logo=google-sheets)
 
-**A modern, high-performance real estate website built with Next.js 15, featuring dynamic project catalogs, Google Sheets integration, and stunning animations.**
+**A modern, high-performance real estate website built with Next.js, featuring dynamic project catalogs, amenity showcases, Google Sheets lead integration, and smooth animations.**
 
 [🌐 Live Demo](https://rishikabuilders.com) | [📖 Documentation](#table-of-contents) | [🐛 Report Bug](mailto:kaizen.official.hub@gmail.com)
 
@@ -19,9 +19,9 @@
 ## 📑 Table of Contents
 
 - [🎯 Features](#-features)
-- [🏗️ Tech Stack](#️-tech-stack)
+- [🏗️ Tech Stack](#-tech-stack)
 - [📂 Project Structure](#-project-structure)
-- [⚙️ Installation & Setup](#️-installation--setup)
+- [⚙️ Installation & Setup](#-installation--setup)
 - [🔧 Configuration](#-configuration)
 - [📝 Content Management](#-content-management)
 - [🎨 Customization Guide](#-customization-guide)
@@ -35,28 +35,36 @@
 ## 🎯 Features
 
 ### ✨ Core Features
-- 🎨 **Modern UI/UX** - Teal gradient theme with smooth animations
-- 📱 **Fully Responsive** - Mobile-first design approach
-- ⚡ **Lightning Fast** - Next.js 15 with App Router
-- 🎭 **Smooth Animations** - Framer Motion integration
-- 📊 **Google Sheets Backend** - No database needed
-- 🔍 **SEO Optimized** - Dynamic metadata & structured data
+- 🎨 **Modern UI/UX** — Warm terracotta & cream brand theme with smooth animations
+- 📱 **Fully Responsive** — Mobile-first design approach
+- ⚡ **Lightning Fast** — Next.js 15+ with Turbopack (App Router)
+- 🎭 **Smooth Animations** — Framer Motion throughout
+- 📊 **Google Sheets Backend** — No database needed for form leads
+- 🔍 **SEO Optimized** — Dynamic metadata per page & route
+- 🖼️ **Unsplash Images** — High-quality real estate photography via Unsplash CDN
 
-### 🛗 Product Features
-- **8 Elevator Categories** - Machine Room, Hydraulic, Home, Hospital, etc.
-- **Dynamic Product Pages** - JSON-based content management
-- **Image Sliders** - Multi-image product galleries
-- **Quote System** - Instant quote request forms
+### 🏠 Project Categories
+- **Luxury Apartments** — 2, 3 & 4 BHK premium residences
+- **Premium Villas** — Independent villas with private gardens
+- **Gated Townships** — Integrated township communities
+- **Commercial Spaces** — Office & retail developments
+- **Plotted Developments** — Individual plot schemes
+- **Affordable Housing** — Smart, value-for-money homes
 
-### 🔧 Accessories Section
-- **7 Accessory Categories** - Motors, Drives, Panels, Cabins
-- **Detailed Specifications** - Technical details for each item
-- **Similar Architecture** - Mirrors product system
+### 🏊 Amenity Showcase
+- **6 Amenity Categories** — Clubhouse, Pool & Spa, Fitness, Security, Green Spaces, Smart Home
+- **Detailed Listings** — Features & images per amenity
+- **Same Architecture** — Mirrors the project listing system
 
 ### 📮 Form Management
-- **4 Form Types** - CTA, Contact, Product Quotes, Accessory Quotes
-- **Google Sheets Storage** - Automatic data logging
-- **Real-time Validation** - User-friendly error handling
+- **4 Form Types** — CTA, Contact, Project Enquiry, Amenity Enquiry
+- **Google Sheets Storage** — Automatic lead logging
+- **Real-time Validation** — User-friendly error handling
+
+### 🏗️ Construction Excellence
+- Expertise grid showcasing 12 construction standards (RCC, Vastu, RERA, Green Building, etc.)
+- Rotating 3D real estate tag cloud with amenity & lifestyle keywords
+- Animated stat counters — homes delivered, happy families, years of experience
 
 ---
 
@@ -64,24 +72,32 @@
 
 ### Frontend
 ```
-Next.js 15.0           - React Framework (App Router)
-React 18               - UI Library
-Tailwind CSS           - Utility-first CSS
-Framer Motion          - Animation Library
+Next.js 15+            - React Framework (App Router, Turbopack)
+React 19               - UI Library
+Tailwind CSS v4        - Utility-first CSS with @theme inline
+Framer Motion          - Animation Library (motion/react)
 Tabler Icons React     - Icon Library
+react-icon-cloud       - 3D rotating tag cloud
 ```
 
 ### Backend & APIs
 ```
-Google Sheets API      - Form Data Storage
+Google Sheets API      - Lead / Form Data Storage
 googleapis             - Google API Client
-Next.js API Routes     - Server-side API handlers
+Next.js API Routes     - Server-side form handler (/api/submit-form)
+```
+
+### External Services
+```
+Unsplash CDN           - High-quality real estate photography
+next-themes            - Theme management
 ```
 
 ### Development Tools
 ```
 ESLint                 - Code Linting
 PostCSS                - CSS Processing
+Turbopack              - Fast bundler (dev & build)
 ```
 
 ---
@@ -89,78 +105,89 @@ PostCSS                - CSS Processing
 ## 📂 Project Structure
 
 ```
-vertical/
+rishika-v3/
 │
 ├── 📁 app/                          # Next.js App Router
-│   ├── 📄 layout.js                 # Root layout with metadata
-│   ├── 📄 page.js                   # Homepage
-│   ├── 📄 globals.css               # Global styles
+│   ├── 📄 layout.js                 # Root layout with metadata & fonts
+│   ├── 📄 page.js                   # Homepage (assembles all sections)
+│   ├── 📄 globals.css               # Global styles & Tailwind @theme
+│   ├── 📄 design.json               # Brand guidelines & colour palette
+│   ├── 📄 not-found.js              # 404 page
 │   │
-│   ├── 📁 products/                 # Products Section
-│   │   ├── 📄 categories.json       # ✏️ EDIT: Product categories data
-│   │   ├── 📄 products.json         # ✏️ EDIT: All products data
-│   │   ├── 📄 page.js               # Products listing page
-│   │   └── 📁 [slug]/               # Dynamic product routes
-│   │       ├── 📄 page.js           # Product category metadata
-│   │       └── 📄 productCategoryClient.js  # Product category UI
+│   ├── 📁 products/                 # Projects Section
+│   │   ├── 📄 categories.json       # ✏️ EDIT: Project category data
+│   │   ├── 📄 products.json         # ✏️ EDIT: All projects / units data
+│   │   ├── 📄 page.js               # Projects listing page (metadata)
+│   │   ├── 📄 productsClient.js     # Projects listing UI
+│   │   └── 📁 [slug]/               # Dynamic project category routes
+│   │       ├── 📄 page.js           # Category metadata (SSR)
+│   │       └── 📄 productCategoryClient.js
 │   │
-│   ├── 📁 accessories/              # Accessories Section
-│   │   ├── 📄 categories.json       # ✏️ EDIT: Accessory categories
-│   │   ├── 📄 accessories.json      # ✏️ EDIT: All accessories data
-│   │   ├── 📄 page.js               # Accessories listing
-│   │   └── 📁 [slug]/               # Dynamic accessory routes
+│   ├── 📁 accessories/              # Amenities Section
+│   │   ├── 📄 categories.json       # ✏️ EDIT: Amenity category data
+│   │   ├── 📄 accessories.json      # ✏️ EDIT: All amenities data
+│   │   ├── 📄 page.js               # Amenities listing page (metadata)
+│   │   ├── 📄 accessoriesClient.js  # Amenities listing UI
+│   │   └── 📁 [slug]/               # Dynamic amenity routes
+│   │       ├── 📄 page.js           # Amenity category metadata
+│   │       └── 📄 accessoryCategoryClient.js
+│   │
+│   ├── 📁 about/                    # About Page
+│   │   ├── 📄 page.js               # About metadata
+│   │   └── 📄 aboutClient.js        # ✏️ EDIT: Story, team, timeline
 │   │
 │   ├── 📁 contact/                  # Contact Page
 │   │   ├── 📄 page.js               # Contact metadata
-│   │   └── 📄 contactClient.js      # ✏️ EDIT: Contact form & info
+│   │   └── 📄 contactClient.js      # ✏️ EDIT: Contact form & office info
 │   │
-│   ├── 📁 about/                    # About Page
 │   ├── 📁 careers/                  # Careers Page
-│   ├── 📁 privacy-policy/           # Privacy Policy
+│   │   ├── 📄 page.js               # Careers metadata
+│   │   ├── 📄 careersClient.js      # ✏️ EDIT: Job listings & culture
+│   │   └── 📄 content.json          # ✏️ EDIT: Job roles & descriptions
+│   │
+│   ├── 📁 privacy-policy/           # Privacy Policy Page
+│   │   ├── 📄 page.js               # Privacy metadata
+│   │   └── 📄 privacyClient.js      # Privacy policy content
 │   │
 │   └── 📁 api/                      # API Routes
 │       └── 📁 submit-form/
-│           └── 📄 route.js          # ✏️ Google Sheets API handler
+│           └── 📄 route.js          # ✏️ Google Sheets form handler
 │
-├── 📁 components/                   # Reusable Components
-│   ├── 📁 layout/
-│   │   ├── 📄 header.js             # ✏️ EDIT: Navigation & logo
-│   │   ├── 📄 footer.js             # ✏️ EDIT: Footer links & info
-│   │   ├── 📄 bgLayout.js           # Background wrapper (teal theme)
-│   │   └── 📄 cool-header.js        # Animated header
+├── 📁 components/
+│   ├── 📁 layout/                   # Layout Components
+│   │   ├── 📄 header.js             # ✏️ EDIT: Navigation, logo, CTA
+│   │   ├── 📄 footer.js             # ✏️ EDIT: Footer links & contact info
+│   │   └── 📄 bgLayout.js           # Background wrapper
 │   │
-│   ├── 📁 sections/                 # Homepage Sections
-│   │   ├── 📄 services.js           # ✏️ EDIT: Products showcase
-│   │   ├── 📄 offering.js           # ✏️ EDIT: Accessories showcase
-│   │   ├── 📄 safety.js             # ✏️ EDIT: DDA certification & safety
-│   │   ├── 📄 testimonials.js       # ✏️ EDIT: Customer testimonials
-│   │   ├── 📄 clients.js            # ✏️ EDIT: Client logos
-│   │   ├── 📄 faqs.js               # ✏️ EDIT: FAQ section
-│   │   ├── 📄 form.js               # Homepage contact form
-│   │   └── 📄 floatCta.js           # Floating CTA button
-│   │
-│   └── 📁 ui/                       # UI Components
-│       └── 📄 hover-expand.js       # Desktop product slider
+│   └── 📁 sections/                 # Homepage Section Components
+│       ├── 📄 services.js           # ✏️ EDIT: Featured project types showcase
+│       ├── 📄 offering.js           # ✏️ EDIT: Key amenities highlight
+│       ├── 📄 excellence.js         # ✏️ EDIT: Construction expertise & tag cloud
+│       ├── 📄 why-us.js             # ✏️ EDIT: Differentiators / USPs
+│       ├── 📄 mission-vision.js     # ✏️ EDIT: Mission, vision, values
+│       ├── 📄 safety.js             # ✏️ EDIT: Certifications & compliance
+│       ├── 📄 testimonials.js       # ✏️ EDIT: Buyer testimonials
+│       ├── 📄 clients.js            # ✏️ EDIT: Partner / institution logos
+│       ├── 📄 certification.js      # Certification badges section
+│       ├── 📄 faqs.js               # ✏️ EDIT: Frequently asked questions
+│       ├── 📄 form.js               # Homepage lead capture form
+│       └── 📄 floatCta.js           # Floating CTA button
+│
+│   └── 📁 ui/                       # UI Primitives
+│       ├── 📄 interactive-icon-cloud.js  # 3D rotating tag/icon cloud
+│       ├── 📄 hover-expand.js            # Expanding card slider
+│       └── 📄 resizable-navbar.js        # Animated navbar
+│
+├── 📁 lib/
+│   └── 📄 utils.js                  # Utility functions (cn, etc.)
 │
 ├── 📁 public/                       # Static Assets
-│   ├── 📁 home/          
-│       ├── 📁 images/               # ✏️ Homepage images
-│       └── 📁 videos/               # ✏️ Homepage videos
-│   ├── 📁 about/                    # ✏️ About images
-│   ├── 📁 accessories/              # ✏️ Accessories images
-│   ├── 📁 products/                 # ✏️ Product images
-│   ├── 📁 careers/                  # ✏️ Careers images
-│   ├── 📁 contact/                  # ✏️ Contact images
-│   └── 📁 clients/                  # ✏️ Client logos
-│   ├── 📄 icon.png                  # Icon of Site
-│   └── 📄 logo.png                  # Logo of Site
-│
-├── 📁 lib/                          # Utilities
-│   └── 📄 utils.js                  # Utility functions
+│   ├── 📄 full-logo-black.png       # Brand logo (dark)
+│   └── 📄 icon.png                  # Favicon
 │
 ├── 📄 .env                          # ✏️ Environment variables (Google Sheets)
-├── 📄 next.config.mjs               # Next.js configuration
-├── 📄 tailwind.config.js            # Tailwind configuration
+├── 📄 next.config.mjs               # Next.js config (Unsplash image domain)
+├── 📄 jsconfig.json                 # Path aliases (@/)
 ├── 📄 package.json                  # Dependencies
 └── 📄 README.md                     # This file!
 ```
@@ -169,12 +196,14 @@ vertical/
 
 | File | Purpose | What to Edit |
 |------|---------|--------------|
-| `app/projects/projects.json` | Product data | Add/edit elevator models |
-| `app/accessories/accessories.json` | Accessory data | Add/edit accessories |
-| `components/sections/services.js` | Product showcase | Change product descriptions |
-| `components/sections/testimonials.js` | Reviews | Add customer testimonials |
-| `components/layout/footer.js` | Footer | Update contact info, links |
-| `components/sections/safety.js` | Certifications | Manage certification badges |
+| `app/products/products.json` | Project listings | Add/edit property units |
+| `app/products/categories.json` | Project categories | Add/edit project types |
+| `app/accessories/accessories.json` | Amenity listings | Add/edit amenities |
+| `app/accessories/categories.json` | Amenity categories | Add/edit amenity types |
+| `components/sections/testimonials.js` | Reviews | Add buyer testimonials |
+| `components/sections/clients.js` | Partners | Update partner/institution logos |
+| `components/layout/footer.js` | Footer | Update contact info & links |
+| `app/careers/content.json` | Jobs | Update job openings |
 | `.env` | Secrets | Google Sheets credentials |
 
 ---
@@ -183,7 +212,7 @@ vertical/
 
 ### Prerequisites
 ```bash
-Node.js 18+ 
+Node.js 18+
 npm or yarn
 Git
 ```
@@ -191,7 +220,7 @@ Git
 ### Step 1: Clone Repository
 ```bash
 git clone <repository-url>
-cd vertical
+cd rishika-v3
 ```
 
 ### Step 2: Install Dependencies
@@ -200,7 +229,7 @@ npm install
 ```
 
 ### Step 3: Configure Environment Variables
-Create `.env` file in root directory:
+Create `.env` in the root directory:
 
 ```env
 # Google Sheets API Configuration
@@ -226,11 +255,11 @@ npm start
 
 ## 🔧 Configuration
 
-### Google Sheets Setup (Form Backend)
+### Google Sheets Setup (Lead Backend)
 
 #### 1. Create Google Cloud Project
 - Go to [Google Cloud Console](https://console.cloud.google.com/)
-- Create new project: "Vertical Elevators"
+- Create new project: "Rishika Builders"
 - Enable **Google Sheets API** and **Google Drive API**
 
 #### 2. Create Service Account
@@ -238,199 +267,202 @@ npm start
 - Click "Create Service Account"
 - Name: `sheets-form-handler`
 - Role: **Editor**
-- Create JSON key and download
+- Create & download the JSON key
 
 #### 3. Create Google Sheet
-- Create new Google Sheet
-- Create 4 sheets (tabs):
-  - `CTA Form`
-  - `Contact Page`
-  - `Product Page`
-  - `Accessories Page`
+Create a new Google Sheet with 4 tabs:
+- `CTA Form`
+- `Contact Page`
+- `Product Page`
+- `Accessories Page`
 
 #### 4. Share Sheet with Service Account
-- Open your Google Sheet
-- Click "Share"
-- Add service account email from JSON file
+- Open your sheet → Share
+- Add the service account email
 - Grant **Editor** permissions
 
 #### 5. Get Sheet ID
 From URL: `https://docs.google.com/spreadsheets/d/`**`SHEET_ID`**`/edit`
 
 #### 6. Update `.env`
-- `GOOGLE_SHEETS_PRIVATE_KEY` - From JSON file
-- `GOOGLE_SHEETS_CLIENT_EMAIL` - From JSON file
-- `GOOGLE_SHEETS_SPREADSHEET_ID` - From Sheet URL
+- `GOOGLE_SHEETS_PRIVATE_KEY` — from downloaded JSON key
+- `GOOGLE_SHEETS_CLIENT_EMAIL` — from downloaded JSON key
+- `GOOGLE_SHEETS_SPREADSHEET_ID` — from sheet URL
 
 ---
 
 ## 📝 Content Management
 
-### Adding New Products
+### Adding a New Project Category
 
-**File:** `app/projects/projects.json`
+**File:** `app/products/categories.json`
 
 ```json
 {
-  "slug": "machine-room-lifts",
-  "model": "VML Series",
-  "category": "machine-room-lifts",
-  "type": "Traction Elevator",
-  "tagline": "Traditional Reliability Meets Modern Technology",
-  "description": "High-speed traction elevators...",
-  "longDescription": "Detailed description here...",
+  "id": "plotted-developments",
+  "title": "Plotted Developments",
+  "slug": "plotted-developments",
+  "description": "Freehold residential plots in gated communities with all infrastructure in place.",
+  "image": "https://images.unsplash.com/photo-XXXXXXXXXX?w=800&q=80",
+  "icon": "IconMap",
+  "features": [
+    "Clear title & RERA registered",
+    "Gated community with security",
+    "Ready infrastructure",
+    "Flexible construction timeline"
+  ],
+  "products": ["rishika-plots-phase1"]
+}
+```
+
+### Adding a New Project Unit
+
+**File:** `app/products/products.json`
+
+```json
+{
+  "slug": "rishika-plots-phase1",
+  "model": "Rishika Plots Phase 1",
+  "category": "plotted-developments",
+  "type": "Residential Plot",
+  "tagline": "Own Your Land, Build Your Dream",
+  "description": "Premium freehold plots in a fully gated community...",
+  "longDescription": "Detailed project description here...",
   "images": [
-    "/projects/machine-room/image1.jpg",
-    "/projects/machine-room/image2.jpg"
+    "https://images.unsplash.com/photo-XXXXXXXXXX?w=800&q=80"
   ],
   "specifications": {
-    "capacity": "630-1600 Kg",
-    "speed": "1.0-4.0 m/s",
-    "floors": "Up to 40 floors"
+    "plotSizes": "200 - 500 sq.yd",
+    "totalPlots": "120 Units",
+    "location": "Hyderabad, Telangana"
   },
   "advantages": [
-    "High speed and efficiency",
-    "Suitable for high-rise buildings"
+    "RERA approved & clear title",
+    "24/7 gated security"
   ]
 }
 ```
 
-### Adding New Accessories
+### Adding a New Amenity
 
 **File:** `app/accessories/accessories.json`
 
 ```json
 {
-  "slug": "vvvf-drive-basic",
-  "model": "VVVF-2000",
-  "category": "vvvf-drive",
-  "type": "Variable Voltage Variable Frequency",
-  "tagline": "Smooth and Energy Efficient",
-  "description": "Advanced VVVF drive system...",
-  "images": ["/services/vvvf.webp"],
+  "slug": "rooftop-terrace",
+  "model": "Sky Lounge & Terrace",
+  "category": "clubhouse-recreation",
+  "type": "Rooftop Amenity",
+  "tagline": "Unwind Above the City",
+  "description": "Panoramic rooftop terrace with seating, barbeque zone, and sky bar.",
+  "images": [
+    "https://images.unsplash.com/photo-XXXXXXXXXX?w=800&q=80"
+  ],
   "specifications": {
-    "power": "5.5-15 KW",
-    "voltage": "380V AC",
-    "frequency": "50/60 Hz"
+    "area": "5,000 sq.ft",
+    "capacity": "100 residents",
+    "access": "Residents only"
   },
   "advantages": [
-    "Energy efficient operation",
-    "Smooth acceleration"
+    "360° city view",
+    "Barbeque & party zone"
   ]
 }
 ```
 
-### Updating Homepage Sections
+### Updating Testimonials
 
-#### Services Section
-**File:** `components/sections/services.js`
-
-Edit the `images` array to modify products displayed on homepage.
-
-#### Testimonials
 **File:** `components/sections/testimonials.js`
 
 ```javascript
 const testimonials = [
   {
-    name: "Customer Name",
-    company: "Company Name",
-    role: "CEO",
-    image: "/clients/photo.jpg",
+    name: "Priya Sharma",
+    company: "Homeowner, Rishika Heights",
+    role: "Resident since 2023",
+    image: "https://images.unsplash.com/photo-XXXXXXXXXX?w=200&q=80",
     rating: 5,
-    text: "Testimonial text here..."
+    text: "The quality of construction and the amenities are truly world-class..."
   }
-];
+]
 ```
-
-#### Client Logos
-**File:** `components/sections/clients.js`
-
-Add logos to `/public/clients/` folder and update component.
 
 ---
 
 ## 🎨 Customization Guide
 
-### Color Theme
+### Brand Colour Palette
 
-**Current Theme:** Teal Gradient
-
-```css
-/* Tailwind Colors Used */
-Primary: #297074
-Dark: #075056
-Medium: #4A8E94
-Light: #91C5C8
-Background: #F0F4F5
+```
+Primary:    #E85002   /* Terracotta Orange  — CTAs, headings, accents  */
+Gray:       #A07558   /* Warm Brown         — Secondary accents         */
+Dark:       #333333   /* Charcoal           — Body text                 */
+Cream:      #D9C3AB   /* Warm Beige         — Borders, dividers         */
+Light:      #FBF8F5   /* Off-white          — Page background           */
+Black:      #1a1a1a   /* Deep Black         — Header, footer            */
 ```
 
-**To Change Theme:**
-
-1. Update `components/layout/bgLayout.js` - Background gradients
-2. Update button colors in all components
-3. Search & replace hex codes across components
+To change the primary accent, search and replace `#E85002` across all component files.
 
 ### Fonts
 
 **File:** `app/layout.js`
 
-```javascript
-import { Inter } from 'next/font/google'
-const inter = Inter({ subsets: ['latin'] })
-```
+The site uses the system font stack via Tailwind. To add a Google Font:
 
-Change to any Google Font.
+```javascript
+import { Playfair_Display, Inter } from 'next/font/google'
+```
 
 ### Logo
 
-**Files to Update:**
-- `components/layout/header.js` - Main logo
-- `components/layout/footer.js` - Footer logo
-- `public/logo.png` - Logo image file
+- `public/full-logo-black.png` — Main brand logo (used in header & footer)
+- `public/icon.png` — Favicon / browser tab icon
 
-### Contact Information
+Replace files in `public/` keeping the same filenames, or update the `src` paths in `components/layout/header.js` and `components/layout/footer.js`.
 
-**File:** `components/layout/footer.js`
+### Unsplash Images
 
-```javascript
-const contactInfo = {
-  phone: "+91-XXXXXXXXXX",
-  email: "info@verticalelevators.com",
-  address: "Your Address Here"
-};
+All images are served from Unsplash CDN, configured in `next.config.mjs`. Use URLs in the format:
+
+```
+https://images.unsplash.com/photo-XXXXXXXXXX?w=800&q=80
 ```
 
 ---
 
 ## 🤖 AI Prompt for Editing
 
-Copy and paste this prompt when asking AI to make changes:
+Copy and paste this when asking AI to make changes:
 
 ```
-I'm working on the Vertical Elevators Next.js website. Here's the context:
+I'm working on the Rishika Builders Next.js real estate website. Here's the context:
 
 TECH STACK:
-- Next.js 15 with App Router
-- React 18, Tailwind CSS, Framer Motion
-- Google Sheets API for form storage
+- Next.js 15+ with App Router & Turbopack
+- React 19, Tailwind CSS v4 (@theme inline), Framer Motion (motion/react)
+- Google Sheets API for form/lead storage
 - JSON-based content management
+- Unsplash CDN for images (configured in next.config.mjs)
+- Tabler Icons React, react-icon-cloud
 
 PROJECT STRUCTURE:
-- Products: app/projects/projects.json & app/projects/categories.json
-- Accessories: app/accessories/accessories.json & app/accessories/categories.json
+- Projects: app/products/products.json & app/products/categories.json
+- Amenities: app/accessories/accessories.json & app/accessories/categories.json
 - Homepage sections: components/sections/
-- Forms API: app/api/submit-form/route.js
-- Layouts: components/layout/
+- Form API: app/api/submit-form/route.js
+- Layout: components/layout/
 
-COLOR THEME:
-- Primary: #297074 (Teal)
-- Dark: #075056
-- Medium: #4A8E94
-- Light: #91C5C8
+BRAND COLOURS:
+- Primary:  #E85002  (Terracotta Orange)
+- Gray:     #A07558  (Warm Brown)
+- Dark:     #333333  (Charcoal)
+- Cream:    #D9C3AB  (Warm Beige)
+- Light:    #FBF8F5  (Off-white background)
+- Black:    #1a1a1a  (Header/Footer)
 
 FORMS INTEGRATION:
-- All forms submit to /api/submit-form
+- All forms POST to /api/submit-form
 - Data saved to Google Sheets (4 sheets: CTA Form, Contact Page, Product Page, Accessories Page)
 - Environment variables in .env
 
@@ -438,34 +470,12 @@ TASK:
 [Describe your specific task here]
 
 Please:
-1. Maintain the existing teal color theme
+1. Maintain the existing brand colour palette
 2. Follow the current component structure
-3. Use Framer Motion for animations
+3. Use Framer Motion (motion/react) for animations
 4. Keep mobile responsiveness
-5. Update JSON files for content changes
-6. Test all changes before confirming
-```
-
-### Example AI Requests
-
-**Add New Product:**
-```
-Using the AI prompt above, add a new product called "Capsule Elevator Premium" 
-to the Capsule Lifts category. Model: VCE-P2000, capacity: 8-10 persons, 
-speed: 1.0 m/s. Add 3 advantages and specifications.
-```
-
-**Change Color Theme:**
-```
-Using the AI prompt above, change the entire website theme from teal 
-(#297074) to royal blue (#1E40AF). Update all gradients, buttons, and 
-hover effects across all components.
-```
-
-**Add Testimonial:**
-```
-Using the AI prompt above, add a new testimonial from "John Smith, CEO of 
-BuildRight Construction" with 5 stars saying "Best elevator service in Delhi!"
+5. Use Unsplash URLs for any new images
+6. Update JSON files for content changes
 ```
 
 ---
@@ -474,45 +484,39 @@ BuildRight Construction" with 5 stars saying "Best elevator service in Delhi!"
 
 ### Form Data Structure
 
-Each sheet contains these columns:
-
 #### Product Page / Accessories Page
-| Timestamp | Name | Email | Phone | Product/Accessory Name | Message |
-|-----------|------|-------|-------|------------------------|---------|
+| Timestamp | Name | Email | Phone | Project/Amenity Name | Message |
+|-----------|------|-------|-------|----------------------|---------|
 
 #### Contact Page
 | Timestamp | Name | Email | Phone | Subject | Message |
 |-----------|------|-------|-------|---------|---------|
 
 #### CTA Form
-| Timestamp | Name | Email | Phone | Service | Message |
-|-----------|------|-------|-------|---------|---------|
+| Timestamp | Name | Email | Phone | Interest | Message |
+|-----------|------|-------|-------|----------|---------|
 
 ### Form Submission Flow
 
 ```
-User fills form → Frontend validates → POST /api/submit-form 
-→ Google Sheets API → Data saved to appropriate sheet 
+User fills form → Frontend validates → POST /api/submit-form
+→ Google Sheets API → Data saved to appropriate sheet
 → Success response → Thank you modal
 ```
 
 ### Troubleshooting Forms
 
-**Issue:** Forms not submitting
+**Forms not submitting:**
 ```bash
-# Check API route
-cat app/api/submit-form/route.js
+# Check .env is present and has all three variables
+cat .env
 
-# Verify environment variables
-echo $GOOGLE_SHEETS_CLIENT_EMAIL
-
-# Check Google Sheets sharing permissions
-# Service account must have Editor access
+# Confirm the Google Sheet is shared with the service account (Editor access)
 ```
 
-**Issue:** Wrong sheet name
+**Wrong sheet name:**
 - Update `SHEET_NAMES` in `app/api/submit-form/route.js`
-- Ensure sheet names match exactly (case-sensitive)
+- Sheet tab names are case-sensitive
 
 ---
 
@@ -521,36 +525,23 @@ echo $GOOGLE_SHEETS_CLIENT_EMAIL
 ### Deploy to Vercel (Recommended)
 
 ```bash
-# Install Vercel CLI
 npm i -g vercel
-
-# Login
 vercel login
-
-# Deploy
 vercel --prod
 ```
 
-**Environment Variables:**
-Add all `.env` variables in Vercel dashboard:
-- Project Settings → Environment Variables
-- Add: `GOOGLE_SHEETS_PRIVATE_KEY`, `GOOGLE_SHEETS_CLIENT_EMAIL`, `GOOGLE_SHEETS_SPREADSHEET_ID`
+Add environment variables in Vercel dashboard:
+> Project Settings → Environment Variables
 
-### Deploy to Other Platforms
+- `GOOGLE_SHEETS_PRIVATE_KEY`
+- `GOOGLE_SHEETS_CLIENT_EMAIL`
+- `GOOGLE_SHEETS_SPREADSHEET_ID`
 
-#### Netlify
+### Other Platforms
+
 ```bash
 npm run build
-# Deploy 'out' folder
-```
-
-#### AWS / DigitalOcean
-```bash
-# Build
-npm run build
-
-# Start with PM2
-pm2 start npm --name "vertical" -- start
+# Serve the .next output with a Node.js server or compatible adapter
 ```
 
 ---
@@ -560,27 +551,23 @@ pm2 start npm --name "vertical" -- start
 ### Common Issues
 
 **Q: Forms not working?**
-- Check Google Sheets API credentials
-- Verify service account has Editor access
-- Check `.env` variables are set
+- Check Google Sheets API credentials in `.env`
+- Verify service account has Editor access to the sheet
+- Confirm sheet tab names match exactly
 
 **Q: Images not loading?**
-- Ensure images are in `/public/` folder
-- Use correct path: `/folder/image.webp`
-- Check file extensions match code
+- Check `next.config.mjs` has `images.unsplash.com` in `remotePatterns`
+- Use format: `https://images.unsplash.com/photo-XXXXX?w=800&q=80`
 
 **Q: Build errors?**
-- Delete `.next` folder and rebuild
-- Update dependencies: `npm update`
-- Check Node.js version (18+)
+- Delete `.next` and rebuild: `rm -rf .next && npm run build`
+- Ensure Node.js 18+
 
-**Q: Styling issues?**
-- Run `npm run build` to check for errors
-- Verify Tailwind classes are correct
-- Check `tailwind.config.js` configuration
+**Q: Tailwind styles not applying?**
+- Tailwind CSS v4 uses `@theme inline` in `globals.css` — no `tailwind.config.js` required
+- Ensure custom CSS variables are defined inside `@theme {}`
 
 ---
-
 
 <div align="center">
 
@@ -591,7 +578,7 @@ pm2 start npm --name "vertical" -- start
 npm run dev
 ```
 
-**Need help?** Don't hesitate to reach out!
+**Need help?** Reach out anytime.
 
 ---
 

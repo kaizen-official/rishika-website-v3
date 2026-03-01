@@ -1,4 +1,5 @@
 import BgLayout from "@/components/layout/bgLayout";
+import { ConstructionExcellence } from "@/components/sections/excellence";
 import Services from "@/components/sections/services";
 import Testimonials from "@/components/sections/testimonials";
 import WhyUS from "@/components/sections/why-us";
@@ -80,6 +81,9 @@ export default function Home() {
       </Suspense>
       <Suspense fallback={<div className="h-48" />}>
         <Offering />
+      </Suspense>
+      <Suspense fallback={<div className="h-48" />}>
+        <ConstructionExcellence />
       </Suspense>
       <Suspense fallback={<div className="h-48" />}>
         <Testimonials />
