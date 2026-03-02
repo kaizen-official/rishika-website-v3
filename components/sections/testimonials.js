@@ -180,7 +180,7 @@ function Testimonials() {
                                             boxShadow: "0 20px 40px rgba(0,0,0,0.1)",
                                             transition: { duration: 0.2 }
                                         }}
-                                        className='bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-shadow duration-300 border border-gray-100'
+                                        className='bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl hover:bg-gradient-to-b hover:from-[#E85002]/10 transition-shadow duration-300 border border-gray-100'
                                     >
                                         {/* Rating Stars */}
                                         <div className='flex gap-1 mb-4'>

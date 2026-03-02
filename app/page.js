@@ -58,7 +58,7 @@ export default function Home() {
   return (
     <BgLayout>
       <video
-        src="/hero-video.mp4"
+        src="/v3.mp4"
         autoPlay
         loop
         muted

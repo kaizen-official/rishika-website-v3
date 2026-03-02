@@ -96,7 +96,7 @@ function MissionVision() {
                   className='inline-flex items-center gap-2 bg-white text-[#E85002] px-6 py-3 rounded-lg font-semibold hover:bg-[#FBF8F5] transition-all duration-300 hover:shadow-lg hover:-translate-y-1'
                 >
                   About Us
-                  <IconSparkles size={20} />
+                  {/* <IconSparkles size={20} /> */}
                 </Link>
               </motion.div>
             </div>

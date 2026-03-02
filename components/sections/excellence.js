@@ -92,7 +92,7 @@ export function ConstructionExcellence() {
                     viewport={{ once: true, margin: "-100px" }}
                     transition={{ duration: 0.4, delay: index * 0.05 }}
                     whileHover={{ scale: 1.05, y: -5 }}
-                    className="bg-white rounded-xl p-4 shadow-md hover:shadow-xl transition-all duration-300 flex flex-col items-center justify-center gap-2 cursor-pointer group"
+                    className="bg-white rounded-xl p-4 shadow-md hover:shadow-xl hover:bg-gradient-to-b hover:from-[#E85002]/10 transition-all duration-300 flex flex-col items-center justify-center gap-2 cursor-pointer group"
                   >
                     <div className="w-12 h-12 rounded-lg flex items-center justify-center" style={{ backgroundColor: `${item.color}15` }}>
                       <Icon

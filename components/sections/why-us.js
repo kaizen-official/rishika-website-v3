@@ -111,11 +111,21 @@ function WhyUS() {
             className='relative'
           >
             <div className='relative rounded-2xl overflow-hidden shadow-2xl'>
-              <motion.img
+              {/* <motion.img
                 whileHover={{ scale: 1.05 }}
                 transition={{ duration: 0.4 }}
                 src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=80"
                 alt="Why Choose Rishika Builders"
+                className='w-full h-auto object-cover'
+              /> */}
+
+              <motion.video
+                whileHover={{ scale: 1.05 }}
+                transition={{ duration: 0.4 }}
+                src="/choose.mp4"
+                autoPlay
+                loop
+                muted
                 className='w-full h-auto object-cover'
               />
 
